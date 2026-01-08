@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal; 
+}
+nav{
+width: 1600px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+padding-top: 24px;
+}
+.btn{
+  padding: 10px 20px;
+  color: rgb(0, 106, 80);
+  border: rgba(0, 106, 80, 1) solid 1px;
+  border-radius: 8px;
+  font-weight: 600;
+  
+}
+.btn:hover{
+  background-color: rgba(0, 106, 80, 0.1);
+  cursor: pointer;
+}
